@@ -1,0 +1,143 @@
+/* 
+.test{
+    margin-top: 60px;
+    border-radius: 1%;
+    background-color:#F6F6F6;
+    height: 630px;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./greeninfographics.png");
+}
+.imageRight{
+    background-image:url("./colleagues_discussing_team_project.png")
+}
+img{
+    margin-top: 60px;
+    max-width: 560px;
+    max-height: 381px;
+    margin-right: 150px;
+}
+.test-1{
+   float: left;
+   margin-left: 50px;
+}
+
+
+.heading{
+  text-align: left;
+  font-weight: bold;
+  color:#053B3F;
+}
+.text{
+       text-align: left;
+       color: #000000;
+       margin-right: 75px;
+       margin-top: 20px;
+       font-size: 15px;
+}
+.btn{
+    background-color: #053B3F;
+    border-radius: 14%;
+    color:white;
+    float: left;
+    text-align: center;
+    height: 45px;
+    width: 150px;
+}
+ */
+
+.center
+{
+    display: flex;
+    justify-content: center;
+ 
+}
+.suyash{
+    background: #F6F6F6;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("./greeninfographics.png"); */
+    width: 95%;
+    height: 55vh;
+    gap: 10px;
+    border-radius: 20px;
+    /* margin-left: 50px; */
+    background-image:url("./greeninfographics.png") ;
+    /* background-blend-mode:soft-light; */
+    background-repeat: no-repeat;
+    background-position-x: -180px;
+    background-position-y: -350px;
+    background-size: 100% 1300px;
+    
+    
+    
+}
+.suyashcenter{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border: 5px;
+    border-color: black;
+    /* background-color: red; */
+   
+  
+    gap: 50px;
+    
+}
+.left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.right
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.leftitem{
+    width:100%;
+}
+.leftitem h3{
+    color: #053B3F;
+font-size: 56px;
+font-family: Noto Sans;
+font-weight: 700;
+word-wrap: break-word;
+}
+.leftitem p{
+    color: black;
+font-size: 16px;
+font-family: Noto Sans;
+font-weight: 400;
+word-wrap: break-word;
+}
+.leftitem button{
+width: 180px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 14px;
+border: 0px solid #FFF;
+background: #053B3F;
+color: white;
+}
+.green{
+    width: 100%; 
+    height: 100%; 
+    transform: rotate(4deg); 
+    transform-origin: 0 0; 
+    opacity: "0.31"
+}
+
